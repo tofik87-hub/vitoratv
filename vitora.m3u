@@ -77,30 +77,18 @@ http://013tv.com:8080/F33848/cbd9779b/162511
 http://013tv.com:8080/F33848/cbd9779b/276564
 
 #SPORT ============================================
-#EXTINF:-1 group-title="ID" tvg-logo="https://www.dens.tv/images/channel-logo/60.jpg", FIGHT SPORTS HD http://op-group1-swiftservehd-1.dens.tv/h/h05/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=FIGHT_SPORTS_HD|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
-
-#EXTINF:-1 group-title="SPORT" tvg-logo="https://www.dens.tv/images/channel-logo/98.jpg", Motorvision+
-http://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=Motorvision%2B|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
-
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-id="" tvg-name="ID: SportStars 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/55fe27237a255968a16a4b1073bdfb5f.png" group-title="Indonesia",ID: SportStars 2
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/304861
+http://013tv.com:8080/F33848/cbd9779b/304861
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: SpoTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/957f888d2a434d5f6a1526e178dcec47.png" group-title="Indonesia",ID: SpoTV
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/165105
+#EXTINF:-1 tvg-id="" tvg-name="ID: SportStars 4" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/9ddaf7aa40fe695bd7b229d8b3232802.png" group-title="Indonesia",ID: SportStars 4
+http://013tv.com:8080/F33848/cbd9779b/304862
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: SpoTV 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/035c4b78f75c9bd0f7cfb4f61ebb3146.png" group-title="Indonesia",ID: SpoTV 2
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298506
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/1v703Xd/img-1-1733807036940.webp" group-title="ShareExt@Relax",SPOTV 2[astro]
 http://ua-iptv.com:8080/roncalvin2000@yahoo.com/GQGgfvaPND/857417
