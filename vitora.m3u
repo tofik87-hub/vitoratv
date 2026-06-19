@@ -50,12 +50,20 @@ http://013tv.com:8080/F33848/cbd9779b/157584
 
 #Channel Anak=======================================
 
-#EXTINF:-1 group-title="Anak" tvg-logo="https://www.dens.tv/images/channel-logo/96.jpg",My Kidz HD
-http://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Kidz_HD|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
+#EXTINF:-1 tvg-id="" tvg-name="ID: Indi Kids" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="Indonesia",ID: Indi Kids
+http://013tv.com:8080/F33848/cbd9779b/298539
 
-#EXTINF:-1 tvg-logo="" group-title="Anak", DreamWorks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/157610
+#EXTINF:-1,Biznet Kids (1080p)
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: DreamWorks" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/b83befd00501db18989297ee6b217e02.png" group-title="Indonesia",ID: DreamWorks
+http://013tv.com:8080/F33848/cbd9779b/157610
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Disney Junior" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7dcbeab064ba8b1eefb6115fc283aaeb.png" group-title="Indonesia",ID: Disney Junior
+http://013tv.com:8080/F33848/cbd9779b/162511
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Disney XD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d7b3960e71c668eeaff78b4145d6173e.png" group-title="Indonesia",ID: Disney XD
+http://013tv.com:8080/F33848/cbd9779b/276564
 
 #SPORT ============================================
 #EXTINF:-1 group-title="ID" tvg-logo="https://www.dens.tv/images/channel-logo/60.jpg", FIGHT SPORTS HD http://op-group1-swiftservehd-1.dens.tv/h/h05/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=FIGHT_SPORTS_HD|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
