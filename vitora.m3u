@@ -30,31 +30,22 @@ http://013tv.com:8080/F33848/cbd9779b/165054
 #EXTINF:-1 tvg-id="" tvg-name="ID: Moji" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/e7f70e39cc40ff59938530edbd768d4f.png" group-title="Indonesia",ID: Moji
 http://013tv.com:8080/F33848/cbd9779b/298550
 
+#EXTINF:-1 tvg-id="" tvg-name="ID: TVN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d8a152836e34ee6141b7efdf3d10da5b.png" group-title="Indonesia",ID: TVN
+http://013tv.com:8080/F33848/cbd9779b/144886
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/22.jpg", group-title="LOKAL", RTV
 http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=wnctpm5uf2j&chname=RTV|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
 
-#EXTINF:-1  tvg-logo="https://i.ibb.co/4fXZt6w/shareext-firsmedia-logo.jpg" group-title="LOKAL", NET TV
-https://flv.intechmedia.net/live/ch114.m3u8|user-agent=Mozilla/5.0
+#EXTINF:-1 tvg-id="" tvg-name="ID: Net" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/708e6db12bbe5bfc95557e44f72ab6a0.png" group-title="Indonesia",ID: Net
+http://013tv.com:8080/F33848/cbd9779b/80292
 
-#EXTINF:-1 tvg-logo="" group-title="PREMIUM INDONESIA", Bioskop Indonesia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/264801
+#EXTINF:-1 tvg-id="" tvg-name="ID: Bioskop Indonesia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c160471d97eadb4d67e82e6915754e96.png" group-title="Indonesia",ID: Bioskop Indonesia
+http://013tv.com:8080/F33848/cbd9779b/264801
 
 #EXTINF:-1 tvg-id="" tvg-name="ID: Zee Bioskop" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/4ffa668fdf208ec522418bd231225c7f.png" group-title="Indonesia",ID: Zee Bioskop
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/157584
+http://013tv.com:8080/F33848/cbd9779b/157584
 
-#EXTINF:28,TV ONE (D*)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-#EXTVLCOPT:network-caching=1000
-https://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="PREMIUM INDONESIA", INews
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/157579
-
-#EXTINF:-1 group-title="SHAREEXT@CHANNEL | DENS.TV" tvg-logo="https://www.dens.tv/images/channel-logo/14.jpg",Kompas TV
-http://op-group1-swiftservehd-1.dens.tv/s/s104/index.m3u8?app_type=web&userid=wnctpm5uf2j&chname=Kompas_TV|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
 
 
 #Channel Anak=======================================
