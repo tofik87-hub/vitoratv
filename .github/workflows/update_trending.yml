@@ -12,9 +12,41 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Ambil Data JSON dari Yewtube (Bypass 403)
+      - name: Ambil Data JSON dari Cermin API Tokhmi
         run: |
-          curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://yewtu.be/api/v1/trending?region=ID" -o trending.json
+          # Mengambil dari server cermin Piped API yang aktif lancar
+          curl -s "https://pipedapi.tokhmi.xyz/trending?region=ID" -o piped.json
+          
+          # Memproses data menggunakan Python bawaan GitHub
+          python3 -c '
+          import json
+          import os
+
+          try:
+              if os.path.exists("piped.json"):
+                  with open("piped.json", "r", encoding="utf-8") as f:
+                      data = json.load(f)
+                  
+                  output_list = []
+                  for item in data:
+                      v_id = item.get("url", "").split("=")[-1] if "=" in item.get("url", "") else item.get("url", "").split("/")[-1]
+                      
+                      video_data = {
+                          "type": "video",
+                          "videoId": v_id,
+                          "title": item.get("title", ""),
+                          "videoThumbnails": [
+                              {"url": item.get("thumbnail", "")}
+                          ]
+                      }
+                      output_list.append(video_data)
+                  
+                  with open("trending.json", "w", encoding="utf-8") as f:
+                      json.dump(output_list, f, ensure_ascii=False, indent=2)
+                  print("Konversi JSON Berhasil!")
+          except Exception as e:
+              print("Gagal:", e)
+          '
 
       - name: Simpan dan Push Perubahan ke GitHub
         run: |
