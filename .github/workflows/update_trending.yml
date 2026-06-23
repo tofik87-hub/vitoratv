@@ -2,9 +2,8 @@ name: Update YouTube Trending Data
 
 on:
   schedule:
-    # Berjalan otomatis setiap 6 jam (bisa disesuaikan)
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Tombol rahasia agar kita bisa klik "Jalankan Manual" kapan saja
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -13,7 +12,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Ambil Data JSON dari Yewtube (Lolos Bot)
+      - name: Ambil Data JSON dari Yewtube
         run: |
           curl -s "https://yewtu.be/api/v1/trending?region=ID" -o trending.json
 
