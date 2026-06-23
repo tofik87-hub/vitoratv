@@ -12,9 +12,9 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Ambil Data JSON dari Yewtube
+      - name: Ambil Data JSON dari Yewtube (Bypass 403)
         run: |
-          curl -s "https://yewtu.be/api/v1/trending?region=ID" -o trending.json
+          curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://yewtu.be/api/v1/trending?region=ID" -o trending.json
 
       - name: Simpan dan Push Perubahan ke GitHub
         run: |
