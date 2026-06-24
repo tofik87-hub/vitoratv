@@ -28,11 +28,22 @@ https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ID: Bioskop Indonesia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c160471d97eadb4d67e82e6915754e96.png" group-title="NASIONAL",ID: Bioskop Indonesia
 http://013tv.com:8080/F33848/cbd9779b/264801
 
+#EXTINF:-1 tvg-id="" tvg-name="ID: Zee Bioskop" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/4ffa668fdf208ec522418bd231225c7f.png" group-title="NASIONAL",ID: Zee Bioskop
+http://013tv.com:8080/F33848/cbd9779b/157584
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-KHgtWRC3U7RcddGKP6aZpqIswK4ftinKhA&s" group-title="NASIONAL", MOJI TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
 http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Nick Jr" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c407878e19cad2a98a707210492d0f4c.png" group-title="NASIONAL",ID: Nick Jr
+http://013tv.com:8080/F33848/cbd9779b/165107
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: nickelodeon" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/e1dd8b2c9477e9c047fc597e8835eebb.png" group-title="NASIONAL",ID: nickelodeon
+http://013tv.com:8080/F33848/cbd9779b/162510
+
+#EXTINF:-1 tvg-id="" tvg-name="ID: Horee!" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/1470dba88dbd7fa85ae09b801fee6fc9.png" group-title="NASIONAL",ID: Horee!
+http://013tv.com:8080/F33848/cbd9779b/264750
 
 
 
